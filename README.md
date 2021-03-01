@@ -118,6 +118,13 @@ Add the following line to `mkdocs.yml`:
 theme:
   name: material
 ```
+### Liminalytics notes
+
+To run as docker with local repo and macros
+
+```sh
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs bjoern13/mkdocs:latest
+```
 
 For other installation methods, configuration options, and a demo, visit
 [squidfunk.github.io/mkdocs-material][1]
